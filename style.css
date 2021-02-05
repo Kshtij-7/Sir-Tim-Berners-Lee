@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    background: linear-gradient(#fff700 0%,#07f543 25%, #07f5f1 50%, #0228cf 75%, #f00707 100%);
+    background: linear-gradient(#fff700 0%,#07f543 12.5%, #07f5f1 25%, #0228cf 37.5%, #f00707 50%, #fff700 62.5%,#07f543 75%, #07f5f1 87.5%, #0228cf 100%);
 
 }
 
@@ -44,10 +44,14 @@ p {
     font-family: monospace;
     font-size: 15px;
     cursor: pointer;
+    background-color: whitesmoke;
+    width: 1475px;
+    margin-top: 0px;
+    align-items: center;
 }
 
 .item {
-    float: right;
+    display: inline;
     font-size: 25px;
     padding-right: 10px;
     padding-top: 10px;
@@ -61,6 +65,20 @@ p {
 h2 {
     font-family: 'Dancing Script', cursive;
 }
-#news {
+#news a {
     font-size: 20px;
+    text-shadow: none !important;
+    color: yellow !important;
 }
+a {
+    color: darkturquoise;
+    text-shadow: 1px 2px ;
+    font-family: 'Sriracha', cursive;
+}
+#contact iframe {
+   width: 100% !important; 
+}
+#contact a {
+    font-size: 20px;
+    text-shadow: none !important;
+    color: yellow !important;
